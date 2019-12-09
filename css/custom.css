@@ -1,0 +1,35 @@
+html{
+    font-size: .875rem;
+}
+html, body{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 400;
+}
+a{
+    color: #005cbf;
+}
+
+.shopping-cart td{
+    padding: .75rem;
+    vertical-align: middle;
+}
+
+header .form-inline .form-control{
+    width: auto;
+}
+
+@media(max-width: 576px){
+    .small-gutters{
+        margin-left: -1px;
+        margin-right: -1px;
+    }
+    .small-gutters .col-3{
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+    .shopping-cart-product-title{
+    }
+    .shopping-cart .media{
+        flex-direction: column;
+    }
+}

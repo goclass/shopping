@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+    <!-- Google Font CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:400,700&display=swap&subset=chinese-traditional" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <title>Personal Setting</title>
+</head>
+<body>
+
+<header>
+    <div class="bg-dark">
+        <div class="container">
+            <!-- 主選單設定，記得修改ID -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="index.html">Shopping</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavigation" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="mainNavigation">
+                    <!-- 有加上mr-auto的物件會自動靠左對齊 -->
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="product_list.html">產品列表</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-toggle="modal" data-target="#login">會員登入</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">關於我們</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="輸入關鍵字" aria-label="Search">
+                        <button class="btn btn-success my-2 my-sm-0" type="submit">搜尋</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="bg-light">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#subNavigation" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="subNavigation">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">產品分類1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">產品分類2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">產品分類3</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">產品分類4</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa fa-google" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+</header>
+
+<div class="personal-panel my-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-3">
+                <div class="text-center">
+                    <img src="http://placeimg.com/380/380/any/7" alt="" class="w-75 d-block mx-auto img-fluid rounded-circle mb-3 border border-dark">
+                    <a href="#" class="btn btn-dark btn-block btn-sm mb-2 w-75 mx-auto"> <i class="mr-1 fa fa-photo"></i>更新照片</a>
+                    <p><small class="text-black-50">ent repellat tempore voluptate voluptatum. Aliquam cupiditate dolore error exercitationem incidunt magni neque perferendis quae quidem sit.</small></p>
+
+                </div>
+            </div>
+            <div class="col-lg-7">
+
+                <h2>個人資料設定</h2>
+
+                <div class="shadow p-4 mb-5">
+                    <form class="needs-validation" novalidate>
+                        <div class="form-row">
+                            <div class="col-lg-6 mb-3">
+                                <label for="validationCustom01"><span class="badge badge-danger mr-1">必填</span>姓氏</label>
+                                <input type="text" class="form-control" id="validationCustom01" placeholder="姓氏" required>
+                            </div>
+                            <div class="col-lg-6 mb-3">
+                                <label for="validationCustom02"><span class="badge badge-danger mr-1">必填</span>名字</label>
+                                <input type="text" class="form-control" id="validationCustom02" placeholder="名字" required>
+                            </div>
+                            <div class="col-lg-12 mb-3">
+                                <label for="validationCustom03"><span class="badge badge-danger mr-1">必填</span>Email</label>
+                                <input type="text" class="form-control" id="validationCustom03" placeholder="Email" required>
+                                <div class="valid-feedback">
+                                    Email OK!
+                                </div>
+                                <div class="invalid-feedback">
+                                    Email有誤
+                                </div>
+                            </div>
+                            <div class="col-lg-6 mb-3">
+                                <label for="validationCustom04"><span class="badge badge-danger mr-1">必填</span>居住地址</label>
+                                <input type="text" class="form-control" id="validationCustom04" placeholder="居住地址" required>
+                                <div class="valid-feedback">
+                                    地址輸入完畢
+                                </div>
+                                <div class="invalid-feedback">
+                                    請輸入地址
+                                </div>
+                            </div>
+                            <div class="col-lg-6 mb-3">
+                                <label for="validationCustom05"><span class="badge badge-danger mr-1">必填</span>連絡電話</label>
+                                <input type="text" class="form-control" id="validationCustom05" placeholder="聯絡電話" required>
+                                <div class="valid-feedback">
+                                    電話輸入完畢
+                                </div>
+                                <div class="invalid-feedback">
+                                    請輸入連絡電話
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-right mt-2">
+                            <button class="btn btn-dark" type="submit">確認修改</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="py-5 bg-dark text-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg">
+                <div class="footer-box">
+                    <div class="footer-title text-white mb-3">Category</div>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white-50">Link1</a></li>
+                        <li><a href="#" class="text-white-50">Link2</a></li>
+                        <li><a href="#" class="text-white-50">Link3</a></li>
+                        <li><a href="#" class="text-white-50">Link4</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg">
+                <div class="footer-box">
+                    <div class="footer-title text-white mb-3">Category</div>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white-50">Link1</a></li>
+                        <li><a href="#" class="text-white-50">Link2</a></li>
+                        <li><a href="#" class="text-white-50">Link3</a></li>
+                        <li><a href="#" class="text-white-50">Link4</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg">
+                <div class="footer-box">
+                    <div class="footer-title text-white mb-3">Category</div>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white-50">Link1</a></li>
+                        <li><a href="#" class="text-white-50">Link2</a></li>
+                        <li><a href="#" class="text-white-50">Link3</a></li>
+                        <li><a href="#" class="text-white-50">Link4</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg">
+                <div class="footer-box">
+                    <div class="footer-title text-white mb-3">FOLLOW US</div>
+                    <div class="footer-social">
+                        <span class="d-inline-block p-2">
+                            <a href="#" class="text-white-50"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                        </span>
+                        <span class="d-inline-block p-2">
+                            <a href="#" class="text-white-50"><i class="fa fa-google" aria-hidden="true"></i></a>
+                        </span>
+                        <span class="d-inline-block p-2">
+                            <a href="#" class="text-white-50"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="footer-box">
+                    <div class="footer-title text-white mb-3">訂閱電子報</div>
+                    <p class="text-white">Loressumenda dolore maxime modi odio quod quos reiciendis rem unde ut voluptatibus! Beatae, earum neque! Dignissimos, officiis quam.</p>
+                    <div class="form-row">
+                        <div class="col-9">
+                            <input type="text" class="form-control" placeholder="請輸入Email">
+                        </div>
+                        <div class="col-3">
+                            <button type="submit" class="btn btn-info btn-block">訂閱</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+<script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function() {
+        'use strict';
+        window.addEventListener('load', function() {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function(form) {
+                form.addEventListener('submit', function(event) {
+                    if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        }, false);
+    })();
+</script>
+
+</body>
+</html>
